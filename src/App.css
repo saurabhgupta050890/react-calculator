@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  margin: auto;
+  padding: 1rem;
+  max-width: 200px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 1rem;
+}
+
+.button {
+  border: 1px solid #aaa;
+  padding: 1rem;
+}
+
+.display {
+  height: 20px;
+  padding: 1px;
+  text-align: right;
+}
